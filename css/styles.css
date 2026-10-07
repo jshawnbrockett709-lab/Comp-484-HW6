@@ -1,0 +1,116 @@
+/* Color Palette
+#1F3A5F - Dark Navy
+#2E6F95 - Steel Blue
+#5FA8A8 - Teal
+#F4F7F6 - Light Gray
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    margin: 0;
+    background: #F4F7F6;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    color: #2E6F95;
+    font-weight: 600;
+}
+
+a {
+    color: #5FA8A8;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #2E6F95;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: #1F3A5F;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header h2 {
+    color: #5FA8A8;
+}
+
+footer {
+    background: #1F3A5F;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+
+/* Work Experience
+------------------------------------*/
+section {
+    padding: 40px 10%;
+}
+
+section:nth-child(1) {
+    background: white;
+}
+
+section:nth-child(1) h2 {
+    color: #1F3A5F;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* Education
+------------------------------------*/
+section:nth-child(2) {
+    background: #F4F7F6;
+}
+
+section:nth-child(2) h2 {
+    color: #1F3A5F;
+}
