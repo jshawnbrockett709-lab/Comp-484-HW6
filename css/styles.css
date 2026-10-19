@@ -8,13 +8,46 @@
 /* Global styles
 ------------------------------------*/
 
+/* Navigation Menu
+------------------------------------*/
+.nav-menu {
+    background: #1F3A5F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.nav-menu a:hover {
+    background: #2E6F95;
+    color: white;
+    border-radius: 4px;
+}
+
 /* Box Model Fix */
 * {
     box-sizing: border-box;
 }
 
+html {
+    scroll-padding-top: 65px;
+}
+
 body {
     margin: 0;
+    padding-top: 60px;
     background: #F4F7F6;
     color: #333333;
     font-family: 'Open Sans', sans-serif;
