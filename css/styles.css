@@ -162,7 +162,22 @@ footer h2 {
 ------------------------------------*/
 
 section:first-child {
-    background: white;
+  background:
+        linear-gradient(
+            135deg,
+            rgba(31, 58, 95, 0.92),
+            rgba(46, 111, 149, 0.78)
+        ),
+        url("../images/work-background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+section:first-child h2,
+section:first-child h3 {
+    color: white;
 }
 
 section h2 {
