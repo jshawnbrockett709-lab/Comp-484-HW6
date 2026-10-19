@@ -137,10 +137,26 @@ footer h2 {
     color: white;
 }
 
+
+/* Footer Contact Icons
+------------------------------------*/
 .contact-info a {
     padding: 10px;
     display: inline-block;
+    color: white;
+    text-decoration: none;
 }
+
+.contact-info i {
+    color: #5FA8A8;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.contact-info a:hover {
+    color: #5FA8A8;
+}
+
 
 /* Work Experience
 ------------------------------------*/
